@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.View`
-  /* margin-top: ${(props) => props.height}; */
-  height: 80px;
-  width: 50px;
-  background-color: white;
+  background-color: #000;
+  border-radius: 50;
+  height: 60px;
+  width: 60px;
 `;

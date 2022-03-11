@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import { Container } from "./styles";
+import { Image } from "react-native";
+import { CarImage } from "./styles";
 
 export default function Car() {
-  return <Container></Container>;
+  return (
+    <CarImage
+      source={{
+        uri: "https://cdn.pixabay.com/photo/2014/04/02/10/24/racing-car-303766_960_720.png",
+      }}
+    />
+  );
 }

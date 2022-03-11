@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.View`
+export const CarImage = styled.Image`
   margin-top: auto;
-  height: 80px;
-  width: 50px;
-  background-color: black;
+  margin-bottom: 60px;
+  height: 75px;
+  width: 150px;
+  transform: rotate(270deg);
 `;
